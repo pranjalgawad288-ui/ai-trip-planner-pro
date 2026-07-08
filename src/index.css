@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-inter bg-bgLight dark:bg-bgDark text-slate-800 dark:text-slate-100 transition-colors duration-300;
+}
+
+h1, h2, h3, h4 {
+  @apply font-poppins;
+}
+
+.glass {
+  @apply bg-white/60 dark:bg-white/10 backdrop-blur-md border border-white/30 dark:border-white/10 shadow-lg;
+}
+
+.gradient-bg {
+  background: linear-gradient(135deg, #2563EB 0%, #06B6D4 100%);
+}
+
+.input-field {
+  @apply w-full px-4 py-3 rounded-xl border border-slate-200 dark:border-slate-700 bg-white/70 dark:bg-white/5 text-sm outline-none focus:ring-2 focus:ring-primary/40 transition-shadow;
+}
+
+.btn-primary {
+  @apply px-6 py-3 rounded-xl font-semibold text-white bg-gradient-to-r from-primary to-secondary shadow-lg shadow-primary/30 hover:-translate-y-0.5 transition-transform disabled:opacity-50 disabled:hover:translate-y-0;
+}
