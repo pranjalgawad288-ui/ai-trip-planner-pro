@@ -2,7 +2,7 @@
 
 A premium, AI-powered trip planning web app built with React, Supabase, and OpenAI.
 
-![]img(
+![image alt](https://github.com/pranjalgawad288-ui/ai-trip-planner-pro/blob/fa2483ef26a9c1821c31025b2a00842045afed0b/Screenshot%202026-07-08%20175745.png)
 
 ## Overview
 
